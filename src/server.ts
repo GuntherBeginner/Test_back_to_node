@@ -22,4 +22,4 @@ app.use(express.json());
 app.use(cors());
 
 app.listen(port);
-console.log(`Server is running on port http://localhost:5000/api-docs`);
+console.log(`Server is running on port http://localhost:${port}/api-docs`);
